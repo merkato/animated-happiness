@@ -1,0 +1,2 @@
+ogr2ogr -update -append -f PostgreSQL PG:"dbname=nazwa_bazy user=uzyszkodnik password=jegohaslo host=serwer.pgllp port=49666 active_schema=silp" -nln "f_arodes" f_arodes.csv
+ogr2ogr -update -append -f PostgreSQL PG:"dbname=nazwa_bazy user=uzyszkodnik password=jegohaslo host=serwer.pgllp port=49666 active_schema=silp" -nln "f_parcel_land_use" f_parcel_land_use.csv
